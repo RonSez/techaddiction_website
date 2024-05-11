@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    border-style: solid;
+    position: relative;
+}
+h2{
+    color: black;
+}
+h3{
+    color: blue;
+    height: 10px;
+    width: 30%; 
+    top: 10%; 
+    left: 20%; 
+    transform: translate(-20%, -850%);
+    font-size: 40px;
+}
+p{
+    border-style: dashed;
+    height: 50px;
+}
+article{
+    border-style: groove;
+    border-radius: 25px;
+    background-color: rgb(248, 210, 163);
+    width: 615px;
+    height: 500px;
+}
+img {
+    float: right;
+    margin-right: 0px;
+    border-radius: 8px;
+    width: 800px;
+  }
