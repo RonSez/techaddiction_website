@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D6FF6B;
+}
+
+h1 {
+    color: black;
+    border-style: solid;
+    position: relative;
+    animation: slidein 2s;
+}
+h2{
+    color: black;
+}
+h3{
+    color: blue;
+    height: 10px;
+    width: 30%; 
+    top: 10%; 
+    left: 20%; 
+    transform: translate(-20%, -850%);
+    font-size: 40px;
+}
+p{
+    border-style: solid;
+    border-radius: 10%;
+    height: 50px;
+    background-color: white;
+}
+article{
+    border-style: groove;
+    border-radius: 25px;
+    background-color: rgb(248, 210, 163);
+    width: 615px;
+    height: 500px;
+}
+img {
+    float: right;
+    margin-right: 0px;
+    border-radius: 8px;
+    width: 800px;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    50% {
+      margin-left: 50%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
